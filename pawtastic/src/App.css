@@ -37,7 +37,7 @@
   height: 30px;
   background: antiquewhite;
   left: 1px;
-  top: 1px;
+  top: 10px;
   font-size: 12px;
   word-spacing: 90px;
   color: salmon;
@@ -70,12 +70,11 @@
   content: "Yes No";
   display: block;
   position: absolute;
-  text-align: center;
   width: 60px;
   height: 30px;
   background: antiquewhite;
   left: 1px;
-  top: 1px;
+  top: 10px;
   font-size: 12px;
   word-spacing: 90px;
   color: salmon;
@@ -106,12 +105,11 @@
   content: "0-25lbs 25-50lbs 50-100lbs 100+lbs";
   display: block;
   position: absolute;
-  text-align: center;
   width: 60px;
-  height: 28px;
+  height: 30px;
   background: antiquewhite;
   left: 1px;
-  top: 1px;
+  top: 10px;
   font-size: 12px;
   word-spacing: 90px;
   color: salmon;
