@@ -61,6 +61,7 @@ export default class App extends Component {
           <label for="toggle" className="switch3"></label>
         
 <br></br>
+{/* created a different div so i can style these separately */}
         <div className="buttons">
           <button type="button">Back</button>
           <button type="button">Next</button>
