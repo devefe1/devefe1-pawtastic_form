@@ -3,6 +3,7 @@
   justify-content: center;
   width: 700px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 .descrip {
   color: #53576F;
@@ -17,4 +18,103 @@
   font-weight: bold;
   font-size: small;
   margin-left: 10px;
+}
+
+.switch { 
+  position : relative ;
+  display : inline-block;
+  width : 40px;
+  height : 20px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.switch::after {
+  content: 'Female Male';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+.checkbox:checked + .switch::after {
+  left : 20px; 
+}
+.checkbox:checked + .switch {
+  background-color: salmon;
+}
+.checkbox { 
+  display : none;
+}
+
+.switch2 { 
+  position : relative ;
+  display : inline-block;
+  width : 40px;
+  height : 20px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.switch2::after {
+  content: 'Yes No';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  white-space: nowrap;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+.checkbox2:checked + .switch2::after {
+  left : 20px; 
+}
+.checkbox2:checked + .switch2 {
+  background-color: salmon;
+}
+.checkbox2 { 
+  display : none;
+}
+.switch3 { 
+  position : relative ;
+  display : inline-block;
+  width : 40px;
+  height : 20px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.switch3::after {
+  content: '0-25lbs 25-50lbs 50-100lbs 100+lbs';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+.checkbox3:checked + .switch3::after {
+  left : 20px; 
+}
+.checkbox3:checked + .switch3 {
+  background-color: salmon;
+}
+.checkbox3 { 
+  display : none;
+}
+
+.buttons {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  
 }
