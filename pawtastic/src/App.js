@@ -18,25 +18,25 @@ export default class App extends Component {
 
           <h1 className="descrip"> Yay, we love Dogs! Give us the basics about your pup.</h1>
 
-          <label className="fontColor"> Name
+          <label className="fontColor"> Name </label>
             <input type="text" placeholder="Pet's Name"/>
-          </label>
+         
           
           <label className="icon">
-          <img src= ""/> Upload a photo
+          <img src="https://img.icons8.com/android/24/000000/camera.png"/> Upload a photo
           </label>
       
       <br></br>
       
-        <label className="fontColor"> Breed 
+        <label className="fontColor"> Breed </label>
           <input 
             type="text" placeholder="Pet's breed"/>
-        </label>
+        
 
-          <label className="fontColor"> Birthday
+          <label className="fontColor"> Birthday </label>
             <input 
             type="date" name ="birthday"/>
-          </label>
+          
 
           </div>
     ) 
