@@ -18,7 +18,7 @@ export default class App extends Component {
 
           <h1 className="descrip"> Yay, we love Dogs! Give us the basics about your pup.</h1>
 
-          <label className=""> Name
+          <label className="fontColor"> Name
             <input type="text" placeholder="Pet's Name"/>
           </label>
           
@@ -28,12 +28,12 @@ export default class App extends Component {
       
       <br></br>
       
-        <label> Breed 
+        <label className="fontColor"> Breed 
           <input 
             type="text" placeholder="Pet's breed"/>
         </label>
 
-          <label> Birthday
+          <label className="fontColor"> Birthday
             <input 
             type="date" name ="birthday"/>
           </label>
