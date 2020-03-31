@@ -34,14 +34,13 @@ export default class App extends Component {
         <label className="fontColor"> Breed </label>
           <input 
             type="text" placeholder="Pet's breed"/>
+          
         
 
         <label className="fontColor"> Birthday </label>
             <input 
             type="date" name ="birthday"/>
-        </div>
-
-<br></br>
+            </div>
 <br></br>
 <br></br>
 {/* got toggle help from this resource itzamna dropped */}
