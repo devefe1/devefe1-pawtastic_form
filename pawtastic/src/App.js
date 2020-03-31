@@ -52,11 +52,12 @@ export default class App extends Component {
           <label>Spayed or Neutered</label>
           <input type= "checkbox" id= "toggle2" className= "checkbox2" />
           <label for="toggle" className="switch2"></label>
-      
-          <p>Weight</p>
+      </div>
+
+          <p className="fontColor" >Weight</p>
           <input type= "checkbox" id= "toggle3" className= "checkbox3" />
           <label for="toggle" className="switch3"></label>
-        </div>
+        
 <br></br>
         <div className="buttons">
           <button type="button">Back</button>
