@@ -166,4 +166,6 @@
   background-color: salmon;
   box-shadow: 0 5px rgb(124, 123, 123);
   transform: translateY(4px);
+  border: none;
+  outline: none;
 }
