@@ -21,90 +21,113 @@
 }
 
 .switch { 
-  position : relative ;
-  display : inline-block;
-  width : 40px;
-  height : 20px;
-  background-color: #eee;
-  border-radius: 20px;
+  position : relative;
+   display : inline-block;
+   margin: 2em;
+   width : 180px;
+   height : 40px;
+   background-color:white;
 }
+
 .switch::after {
-  content: 'Female Male';
+  content: "Female Male";
+  display: block;
   position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: white;
-  top: 1px;
+  width: 60px;
+  height: 30px;
+  background: antiquewhite;
   left: 1px;
-  transition: all 0.3s;
+  top: 1px;
+  font-size: 12px;
+  word-spacing: 90px;
+  color: salmon;
+  white-space: nowrap;
+  transition: all .6s;
+  white-space: nowrap;
 }
+
 .checkbox:checked + .switch::after {
   left : 20px; 
 }
 .checkbox:checked + .switch {
-  background-color: salmon;
+  background-color: white;
 }
-.checkbox { 
-  display : none;
+
+.checkbox{
+  display: none;
 }
 
 .switch2 { 
-  position : relative ;
-  display : inline-block;
-  width : 40px;
-  height : 20px;
-  background-color: #eee;
-  border-radius: 20px;
+  position : relative;
+   display : inline-block;
+   margin: 2em;
+   width : 180px;
+   height : 40px;
+   background-color:white;
 }
+
 .switch2::after {
-  content: 'Yes No';
+  content: "Yes No";
+  display: block;
   position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: white;
-  white-space: nowrap;
-  top: 1px;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  background: antiquewhite;
   left: 1px;
-  transition: all 0.3s;
+  top: 1px;
+  font-size: 12px;
+  word-spacing: 90px;
+  color: salmon;
+  white-space: nowrap;
+  transition: all .6s;
 }
+
 .checkbox2:checked + .switch2::after {
   left : 20px; 
 }
 .checkbox2:checked + .switch2 {
-  background-color: salmon;
+  background-color: white;
 }
-.checkbox2 { 
-  display : none;
+
+.checkbox2{
+  display: none;
 }
 .switch3 { 
-  position : relative ;
-  display : inline-block;
-  width : 40px;
-  height : 20px;
-  background-color: #eee;
-  border-radius: 20px;
+  position : relative;
+   display : inline-block;
+   margin: 2em;
+   width : 510px;
+   height : 40px;
+   background-color:white;
 }
+
 .switch3::after {
-  content: '0-25lbs 25-50lbs 50-100lbs 100+lbs';
+  content: "0-25lbs 25-50lbs 50-100lbs 100+lbs";
+  display: block;
   position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: white;
-  top: 1px;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  background: antiquewhite;
   left: 1px;
-  transition: all 0.3s;
+  top: 1px;
+  font-size: 12px;
+  word-spacing: 90px;
+  color: salmon;
+  white-space: nowrap;
+  transition: all .6s;
 }
+
 .checkbox3:checked + .switch3::after {
   left : 20px; 
 }
 .checkbox3:checked + .switch3 {
-  background-color: salmon;
+  background-color: white;
 }
-.checkbox3 { 
-  display : none;
+
+.checkbox3{
+  display: none;
 }
 
 .buttons {
@@ -116,5 +139,5 @@
   display: flex;
   justify-content: center;
   font-size: 16px;
-  
+
 }
