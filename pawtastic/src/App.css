@@ -1,9 +1,12 @@
 .form {
-  margin: auto;
+  margin: 0 auto;
   background-color: #F7ECEB;
   justify-content: center;
   width: 700px;
   border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+
 }
 .descrip {
   color: #53576F;

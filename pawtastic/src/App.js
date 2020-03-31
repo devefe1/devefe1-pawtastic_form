@@ -43,19 +43,15 @@ export default class App extends Component {
 {/* got toggle help from this resource itzamna dropped */}
 {/* https://medium.com/front-end-weekly/creating-a-toggle-switch-in-css-2d23e496d035 */}
         <div>
-        <p>Gender</p>
+          <p>Gender</p>
           <input type= "checkbox" id= "toggle" className= "checkbox" />
           <label for="toggle" className="switch"></label>
-        </div>
         
-        <div>
-        <p>Spayed or Neutered</p>
+          <p>Spayed or Neutered</p>
           <input type= "checkbox" id= "toggle2" className= "checkbox2" />
           <label for="toggle" className="switch2"></label>
-        </div>
-
-        <div>
-        <p>Weight</p>
+      
+          <p>Weight</p>
           <input type= "checkbox" id= "toggle3" className= "checkbox3" />
           <label for="toggle" className="switch3"></label>
         </div>
