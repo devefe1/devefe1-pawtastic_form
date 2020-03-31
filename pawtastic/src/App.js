@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+
+export default class App extends Component {
+  constructor(props){
+    super(props);
+      this.state ={
+        petName:"",
+        breed:"",
+        birthday:"",
+      }
+
+  }
+  render() {
+    return (
+
+      <div className="form">
+
+          <h1>Yay, we love Dogs! Give us the basics about your pup.</h1>
+
+          <label> Name
+            <input type="text" placeholder="Pet's Name"/>
+          </label>
+          
+          <label className="icon">
+          <img src= ""/> Upload a photo
+          </label>
+      
+      <br></br>
+      
+        <label> Breed 
+          <input 
+            type="text" placeholder="Pet's breed"/>
+        </label>
+
+          <label> Birthday
+            <input 
+            type="date" name ="birthday"/>
+          </label>
+
+          </div>
+    ) 
 }
-
-export default App;
+}
