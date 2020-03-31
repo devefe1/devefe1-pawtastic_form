@@ -65,7 +65,7 @@ export default class App extends Component {
 {/* buttons didn't change size, couldn't figure why */}
         <div className="buttons">
           <button className ="button1" type="button">Back</button>
-          <button type="button">Next</button>
+          <button className ="button1" type="button">Next</button>
         </div>
       </div>
     );
