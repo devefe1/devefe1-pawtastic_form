@@ -13,10 +13,12 @@ export default class App extends Component {
   }
   render() {
     return (
-
+    
       <div className="form">
+        <div className="descrip">
+          <h1 > Yay, we love Dogs! Give us the basics about your pup.</h1>
+        </div>
 
-          <h1 className="descrip"> Yay, we love Dogs! Give us the basics about your pup.</h1>
 
           <label className="fontColor"> Name </label>
             <input type="text" placeholder="Pet's Name"/>
@@ -33,11 +35,19 @@ export default class App extends Component {
             type="text" placeholder="Pet's breed"/>
         
 
-          <label className="fontColor"> Birthday </label>
+        <label className="fontColor"> Birthday </label>
             <input 
             type="date" name ="birthday"/>
-          
 
+            
+{/* got toggle help from this resource itzamna dropped */}
+{/* https://medium.com/front-end-weekly/creating-a-toggle-switch-in-css-2d23e496d035 */}
+        <p>Gender</p>
+          <input type= "checkbox" id= "toggle" className= "checkbox" />
+
+        <p>Spayed or Neutered</p>
+
+        <p>Weight</p>
           </div>
     ) 
 }
