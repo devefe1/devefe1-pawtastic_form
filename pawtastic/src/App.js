@@ -47,7 +47,7 @@ export default class App extends Component {
           <input type= "checkbox" id= "toggle" className= "checkbox" />
           <label for="toggle" className="switch"></label>
         </div>
-<br></br>
+        
         <div>
         <p>Spayed or Neutered</p>
           <input type= "checkbox" id= "toggle2" className= "checkbox2" />

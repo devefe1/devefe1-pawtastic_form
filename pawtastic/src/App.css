@@ -1,8 +1,8 @@
 .form {
+  margin: auto;
   background-color: #F7ECEB;
   justify-content: center;
   width: 700px;
-  margin: 0 auto;
   border-radius: 10px;
 }
 .descrip {
