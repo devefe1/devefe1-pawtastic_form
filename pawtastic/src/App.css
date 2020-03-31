@@ -158,4 +158,12 @@
 .button1{
   font-size: 20px;
   border-radius: 5px;
+  color: #53576F;
+}
+.button1:hover {background-color: rgb(179, 179, 185);}
+
+.button1:active {
+  background-color: salmon;
+  box-shadow: 0 5px rgb(124, 123, 123);
+  transform: translateY(4px);
 }
