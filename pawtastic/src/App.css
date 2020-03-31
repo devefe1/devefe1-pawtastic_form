@@ -23,7 +23,7 @@
 .switch { 
   position : relative;
    display : inline-block;
-   margin: 2em;
+   margin: auto;
    width : 180px;
    height : 40px;
    background-color:white;
@@ -60,7 +60,7 @@
 .switch2 { 
   position : relative;
    display : inline-block;
-   margin: 2em;
+   margin: auto;
    width : 180px;
    height : 40px;
    background-color:white;
@@ -95,7 +95,7 @@
 .switch3 { 
   position : relative;
    display : inline-block;
-   margin: 2em;
+   margin: auto;
    width : 510px;
    height : 40px;
    background-color:white;
