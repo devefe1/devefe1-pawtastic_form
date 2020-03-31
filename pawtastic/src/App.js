@@ -15,6 +15,7 @@ export default class App extends Component {
     return (
     
       <div className="form">
+        <div className="topPart">
         <div className="descrip">
           <h1 > Yay, we love Dogs! Give us the basics about your pup.</h1>
         </div>
@@ -38,6 +39,7 @@ export default class App extends Component {
         <label className="fontColor"> Birthday </label>
             <input 
             type="date" name ="birthday"/>
+        </div>
 
 <br></br>
 <br></br>
