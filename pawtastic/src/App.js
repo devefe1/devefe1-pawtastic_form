@@ -1,5 +1,5 @@
-
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './App.css';
 
 export default class App extends Component {
   constructor(props){
@@ -16,9 +16,9 @@ export default class App extends Component {
 
       <div className="form">
 
-          <h1>Yay, we love Dogs! Give us the basics about your pup.</h1>
+          <h1 className="descrip"> Yay, we love Dogs! Give us the basics about your pup.</h1>
 
-          <label> Name
+          <label className=""> Name
             <input type="text" placeholder="Pet's Name"/>
           </label>
           
